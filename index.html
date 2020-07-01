@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn1.iconfinder.com/data/icons/user-interface-set-2/100/71-512.png" type="image/x-icon">
+</head>
+
+<body style="background-image: url(https://wallpaperaccess.com/full/494081.jpg);">
+
+    <div class="calculatorContent" style="text-align: center;">
+        <div>
+            <input type="text" name="" id="result" class="result" style="font-size: 50px;">
+
+        </div>
+        <div>
+
+            <button class="btnClr" onclick="clearResult()" style="font-size: 30px;">CLEAR</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('7')" style="font-size: 30px;">7</button>
+            <button class="btn" onclick="getNumber('8')" style="font-size: 30px;">8</button>
+            <button class="btn" onclick="getNumber('9')" style="font-size: 30px;">9</button>
+            <button class="btn" onclick="getNumber('/')" style="font-size: 30px;">/</button>
+
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('4')" style="font-size: 30px;">4</button>
+            <button class="btn" onclick="getNumber('5')" style="font-size: 30px;">5</button>
+            <button class="btn" onclick="getNumber('6')" style="font-size: 30px;">6</button>
+            <button class="btn" onclick="getNumber('*')" style="font-size: 30px;">x</button>
+
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('1')" style="font-size: 30px;">1</button>
+            <button class="btn" onclick="getNumber('2')" style="font-size: 30px;">2</button>
+            <button class="btn" onclick="getNumber('3')" style="font-size: 30px;">3</button>
+            <button class="btn" onclick="getNumber('-')" style="font-size: 30px;">-</button>
+
+        </div>
+        <div>
+            <button class="btnZero" onclick="getNumber('0')" style="font-size: 30px;">0</button>
+            <button class="btn" onclick="getNumber('.')" style="font-size: 30px;">.</button>
+
+            <button class="btn" onclick="getNumber('+')" style="font-size: 30px;">+</button>
+
+            <button class="btnEquals" onclick="getResult()" style="font-size: 30px;">=</button>
+
+
+        </div>
+    </div>
+    <center>
+        <h1 style="color: aliceblue;"> Calculator Made by Hatim Khetty</h1>
+    </center>
+    <script src="./app.js"></script>
+</body>
+
+</html>

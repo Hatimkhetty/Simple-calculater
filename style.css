@@ -1,0 +1,24 @@
+.result {
+    margin: 4px auto;
+    background-color: gray;
+}
+
+.btnClr {
+    width: 40%;
+    margin: 5px auto;
+}
+
+.btn {
+    width: 9.8%;
+    margin: 5px auto;
+}
+
+.btnEquals {
+    width: 9.8%;
+    margin: 5px auto;
+}
+
+.btnZero {
+    width: 9.8%;
+    margin: 5px auto;
+}
